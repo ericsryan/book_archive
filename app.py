@@ -70,7 +70,7 @@ def view_all_books_list():
         for book in books:
             print("    " + str(book.id) +
                     (' ' * (7 - len(str(book.id)))) +
-                    f"{book.author}—{book.title}")
+                    f"{book.author} — {book.title}")
         choice = input("\n    Enter a book id to view more details or press "
                        "[Enter] to return to the main menu.\n\n    >>> ")
         if choice in [str(book.id) for book in books]:
@@ -229,9 +229,7 @@ def edit_book(book):
     if published_year == '':
         published_year = book.published_year
     else:
-        published_year = clean_date(published_year)
-        if type(published_year) != datetime.date:
-            published_year = book.published_year
+        published_year = int(published_year)
     date_last_read = input(f"Date Last Read ({book.date_last_read}): ")
     if date_last_read == '':
         date_last_read = book.date_last_read

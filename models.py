@@ -22,7 +22,7 @@ class Book(Base):
 
 
     def __repr__(self):
-        return f'Title: {self.title}, Author: {self.author}, Published: {self.published_date}'
+        return f'Title: {self.title}, Author: {self.author}, Published: {self.published_year}'
 
 
 class LogEntry(Base):

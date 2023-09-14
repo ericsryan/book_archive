@@ -190,7 +190,7 @@ def add_books_from_file():
 """)
         file_name = input("    Enter the name of the file: ")
         try:
-            with open(file_name) as csvfile:
+            with open(file_name, newline='') as csvfile:
                 data = csv.reader(csvfile)
                 for row in data:
                     author = row[0]

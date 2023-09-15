@@ -16,7 +16,6 @@ RANDOM_SELECTION = [
     "Let the fates decide!",
     "Play the literary lottery!",
     "Bump the bookcase and see what falls out."
-
 ]
 
 
@@ -65,7 +64,7 @@ def view_all_books_list():
         print("""
     ===== All Books =====
         
-    ID   | Author—Title
+    ID   | Author — Title
 """)
         for book in books:
             print("    " + str(book.id) +

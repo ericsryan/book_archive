@@ -2,6 +2,23 @@
 
 The **Book Archive App** is a command-line application designed to help you manage your book collection. You can add books, view your library, edit book details, delete books, and even choose random books from your collection.
 
+## Table of Contents
+
+1. [Book Archive App](#book-archive-app)
+2. [Features](#features)
+3. [How to Use](#how-to-use)
+    - [View Library](#1-view-library)
+    - [Add Book(s) to Library](#2-add-books-to-library)
+    - [Edit Book Details](#3-edit-book-details)
+    - [Delete Books](#4-delete-books)
+    - [Backup Library](#5-backup-library)
+    - [Random Book Selection](#6-random-book-selection)
+    - [Exit](#7-exit)
+4. [Instructions](#instructions)
+5. [Running the App](#running-the-app)
+6. [Requirements](#requirements)
+7. [Author](#author)
+
 ## Features
 
 - **View Library**: View a list of all books in your library.

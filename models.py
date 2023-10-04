@@ -23,6 +23,10 @@ class Book(Base):
 
     def __repr__(self):
         return f'Title: {self.title}, Author: {self.author}, Published: {self.published_year}'
+    
+    @property
+    def series_title(self):
+        return f"{self.series + ' Series ' if self.series else ''}{self.title}"
 
 
 class LogEntry(Base):

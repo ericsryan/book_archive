@@ -10,7 +10,6 @@ RANDOM_SELECTION = [
     "Spin the wheel!",
     "Flip a coin!",
     "Einy, meiny, miny...book!",
-    "Cast lots for your next book, Jewboy!",
     "Pick a book, any book!",
     "RNGesus, take the wheel!",
     "Let the fates decide!",
